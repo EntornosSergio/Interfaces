@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-size: 4em;
+    background-color: rgb(255,95,73);
+    color: white;
+    text-align: center;
+    font-family: Impact;
+}
+
+#menu{
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 0.25em;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(255, 95, 73); 
+}
+
+#menu > a{
+    color: rgb(255, 95, 73);
+    text-decoration: none;
+}
+
+#menu > a:hover {
+    color: black; 
+    text-shadow: 2px 2px 4px grey;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.container img{
+    width: 100%;
+    height: 70vh;
+    padding-top: 40px;
+    display: block;
+}
+
+#identificador{
+    position: absolute;
+    background-color: rgb(255, 95, 73);
+    height: 300px;
+    width: 200px;
+    top: 200px; 
+    left: 100px;
+}
+
+.texto {
+    
+    display: block;
+    margin: 20px auto; 
+    text-align: center; 
+    padding: 10px;      
+    width: 50%;
+    height: 20px;
+    margin-top: 50%;
+}
+
+
+.boton {
+    display: block;
+    margin: 20px auto;  
+    cursor: pointer;
+    width: 50%;
+    height: 20px;
+}
+
+.privacidad{
+    color: rgb(255, 95, 73);
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}

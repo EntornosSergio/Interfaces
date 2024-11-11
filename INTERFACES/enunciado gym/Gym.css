@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-size: 4em;
+    background-color: rgb(255,95,73);
+    color: white;
+    text-align: center;
+    font-family: Impact;
+}
+
+#menu{
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 0.25em;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(255, 95, 73); 
+}
+
+#menu > a{
+    color: rgb(255, 95, 73);
+    text-decoration: none;
+}
+
+#menu > a:hover {
+    color: black; 
+    text-shadow: 2px 2px 4px grey;
+}
+
+#frase{
+    margin-top: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+
+}
+
+#frase > h1{
+    word-spacing: 12px;
+}
+
+.color{
+    color: rgb(255, 95, 73);
+    font-style: italic;
+}
+
+#div{
+    margin-top: 10vh;
+}
+
+#imagen{
+    margin-top: 10vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#circulo{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#circulo:hover{
+    box-shadow:0 0 20px gray;
+}
+
+.numeros{
+    color: rgb(255, 95, 73);
+    font-size: 25px;
+    font-weight: bold;
+}
