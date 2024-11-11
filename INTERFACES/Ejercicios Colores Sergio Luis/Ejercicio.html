@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 2% 5% 5%;
+      background-color: rgb(254, 255, 236);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    #cabezera, #pie {
+      background: linear-gradient(to right, rgb(88, 138, 15), rgb(136, 184, 16)); 
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    h1 {
+      color: white;
+      font-size: 2.5em;
+      font-family: 'Lora', serif;
+      margin: 0;
+    }
+
+    #iconos {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    #iconos img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .fotos {
+      width: 48%;
+      text-align: center;
+    }
+
+    .fotos img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid black; 
+      border-radius: 10px;
+    }
+
+    .fotos button {
+      padding: 10px 15px;
+      font-size: 1em;
+      color: white;
+      background-color: rgb(161, 47, 72);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    #pie {
+      margin-top: 40px; 
+      background: linear-gradient(to right, rgb(88, 138, 15), rgb(136, 184, 16));
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    #pie p {
+      color: white;
+      margin: 5px 0;
+    }
+  </style>
+  <title>Centro de Masajes</title>
+</head>
+<body>
+  <div id="cabezera">
+    <h1>Centro de Masajes</h1>
+    <div id="iconos">
+      <img src="Centro masajes/masaje1.png">
+      <img src="Centro masajes/masaje2.png">
+      <img src="Centro masajes/masaje3.png">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="fotos">
+      <img src="Centro masajes/fondozen1.jpg">
+      <button>Masaje/SPA</button>
+    </div>
+    <div class="fotos">
+      <img src="Centro masajes/masaje2.jpg">
+      <button>Pack de Masajes</button>
+    </div>
+  </div>
+
+  <div id="pie">
+    <p>Centro de Masajes</p>
+    <p>Teléfono: 659-248-963</p>
+    <p>Email: info@centromasajes.com</p>
+    <p>¡Los mejores masajes los hacemos aqui!</p>
+  </div>
+</body>
+</html>
